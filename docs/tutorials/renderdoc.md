@@ -16,7 +16,7 @@ La capture a été réalisé avec l'API *OpenGL* pour être en lien avec le cour
 ???+ abstract "Rendu de TP"
     Un cours compte-rendu de TP est à rendre à la fin de celui ci.  
     Il faudra répondre aux questions encadrées.  
-    Pas besoin de mise en page. Des simples phrases suffiront. 
+    Pas besoin de mise en page, de simples phrases suffiront. 
 
 !!! info
     Si vous êtes bloqué, n'hésitez pas à solliciter votre encadrant.
@@ -83,13 +83,10 @@ Pour valider votre intuition, choisissez un drawcall et ouvrez la fenêtre **Pip
 
 En haut, vous pouvez apercevoir les différent stages du pipeline de rendu que vous conaissez bien.
 
-Cliquez sur le stage `Framebuffer Output (FB)`.
-En bas se trouve le *Depth State*.
+Cliquez sur le stage `Framebuffer Output (FB)`. Le *Depth State* se trouve en bas.
 
 !!! question
     Décrivez le depth state et validez (ou invalidez) votre intuition.  
-    *Si vous êtes bloqués, n'hésitez pas à solliciter votre encadrant.*
-
     En revenant sur les passes de rendu que vous avez observé, quel lien pouvez vous faire ?
 
 ## Étude d'un DrawCall
@@ -101,7 +98,7 @@ Prenez de préférence un drawcall bien visible.
 
 !!! question
     Quels sont les différents attributs définis par Unity ?  
-    Unity utilise-t-il un seul ou plusieurs VBO pour les vertices ?
+    Unity utilise-t-il un seul ou plusieurs Buffer pour les vertices ?
 
 #### Vertex Shader
 
@@ -127,14 +124,14 @@ On peut constater que pas mal de ressources sont utilisées par le fragment shad
 
     ![Green Object](assets/renderdoc_shader_edit_example.png)
 
-??? question "Exercice (Bonus)"
+???+ question "Exercice (Bonus)"
 
     Comme pour l'exercice précédent, modifiez le shader pour qu'il affiche les UVs de l'objet.  
-    Vous aurez peut-être besoin d'aller voir le code du vertex shader.
+    Vous aurez besoin d'aller voir le code du vertex shader.
 
     ![Object dispalying UVs](assets/renderdoc_shader_edit_example_uv.png)
 
 ## Pour aller plus loin
 
-Dans ce TP, nous avons fait le tour de fonctionalités de base. 
+Nous avons fait le tour de fonctionalités de base. 
 Pour aller plus loin, vous pouvez vous rendre sur la [documentation officielle :link:](https://renderdoc.org/docs/introduction.html).
