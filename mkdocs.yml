@@ -26,6 +26,8 @@ theme:
     - navigation.prune
     - navigation.indexes
     - navigation.top
+    - navigation.path
+    - navigation.sections
 
 markdown_extensions:
   - abbr
@@ -69,8 +71,8 @@ extra_javascript:
 
 
 nav:
-  - Home: 'index.md'
+  # - Home: 'index.md'
   - Travaux Pratiques:
       - 'tutorials/index.md'
-      - RenderDoc: 'tutorials/renderdoc.md'
-
+      - RenderDoc:
+        - Frame Analysis: 'tutorials/renderdoc.md'

@@ -1,5 +1,5 @@
 
-# Render Doc
+# RenderDoc - Frame Analysis
 
 ![Tutorial Cover](assets/renderdoc.png)
 
@@ -98,7 +98,8 @@ Prenez de préférence un drawcall bien visible.
 
 !!! question
     Quels sont les différents attributs définis par Unity ?  
-    Unity utilise-t-il un seul ou plusieurs Buffer pour les vertices ?
+    Unity utilise-t-il un seul ou plusieurs Buffer pour les vertices ?  
+    Ecrivez la structure correspondante au modèle de l'objet en C++.
 
 #### Vertex Shader
 
